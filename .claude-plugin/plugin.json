@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "watch",
+  "version": "1.0.0",
+  "description": "Watch social media videos (TikTok, Instagram Reels, YouTube, X, LinkedIn) and turn what they teach into reusable Claude Code skills. Downloads, transcribes and samples frames locally - no API keys, no billing.",
+  "author": {
+    "name": "Joseph Hamawi",
+    "url": "https://github.com/josephhamawi"
+  },
+  "homepage": "https://github.com/josephhamawi/claude-code-watch",
+  "repository": "https://github.com/josephhamawi/claude-code-watch",
+  "license": "MIT",
+  "keywords": ["video", "tiktok", "instagram", "youtube", "transcription", "skills", "whisper", "yt-dlp"],
+  "skills": ["./"],
+  "commands": ["./commands"]
+}

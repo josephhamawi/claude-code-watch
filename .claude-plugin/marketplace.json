@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "josephhamawi",
+  "description": "Claude Code plugins by Joseph Hamawi",
+  "owner": { "name": "Joseph Hamawi", "url": "https://github.com/josephhamawi" },
+  "plugins": [
+    {
+      "name": "watch",
+      "description": "Turn any social media video into a reusable Claude Code skill. Downloads, transcribes and reads frames locally - no API keys.",
+      "author": { "name": "Joseph Hamawi" },
+      "category": "productivity",
+      "source": { "source": "github", "repo": "josephhamawi/claude-code-watch" }
+    }
+  ]
+}
